@@ -1,0 +1,55 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf190
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 Monaco;}
+{\colortbl;\red255\green255\blue255;\red106\green121\blue129;\red140\green218\blue141;\red242\green63\blue95;
+\red147\green191\blue204;\red231\green156\blue70;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+
+\f0\fs24 \cf0 1.)\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\f1 \cf2 #!/bin/bash\
+\cf1 \
+\cf2 # This script asks for a users age and determines if they are 16. If they are the script will output that they are of legal drinking age.\
+# if not then it will calculate how many years until they turn 16.\
+\cf1 \
+\cf3 echo\cf1  -n \cf4 "Hello, Please input your age and press [ENTER]: "\cf1 \
+read age\
+\cf3 if\cf1  [ \cf5 $age\cf1  -lt \cf6 16\cf1  ]; \cf3 then\cf1 \
+	tooYoung=$((\cf6 16\cf1  - \cf5 $age\cf1 )) \
+	\cf3 echo\cf1  \cf4 "Sorry you are too young, you have "\cf5 $tooYoung\cf4 " years until you are of legal drinking age."\cf1 \
+\cf3 else\cf1 \
+	\cf3 echo\cf1  \cf4 "YAY! you are of legal drinking age!"\cf1 \
+	\cf3 fi\cf1  
+\f0 \cf0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+\cf0 \
+2.)\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\f1 \cf2 #!/bin/bash\
+\cf1 \
+\cf2 # Script which takes a file as an argument inside the script and putputs the file size and what kind of compression type the user wants, then compresses with that type.\
+\cf1 \
+\cf3 echo\cf1  \cf4 "Hello, please input the file path which you would like to compress then press [ENTER]: "\cf1 \
+read fileName\
+\cf3 cd\cf1  \cf5 $filename\cf1 \
+fileSize=cat \cf5 $fileName\cf1  | wc -c\
+\cf3 echo\cf1  \cf4 "The size of your file is "\cf5 $fileSize\cf4 "."\cf1 \
+\cf3 echo\cf1  \cf4 "How would you like to compress your file: "\cf1 \
+cat <<compressTypes\
+gzip\
+bzip2\
+zip\
+compressTypes\
+read compressType\
+\
+\cf3 echo\cf1  \cf4 "Starting compression using "\cf5 $compressTypes\cf4 "..."\cf1 \
+\cf3 if\cf1  [\cf4 "$compressType"\cf1  == \cf4 "gzip"\cf1 ]; \cf3 then\cf1 \
+	gzip -r \cf5 $fileName\cf1 \
+\cf3 elif\cf1  [\cf4 "$compressType"\cf1  == \cf4 "bzip2"\cf1 ]; \cf3 then\cf1 \
+	bzip2 -r \cf5 $fileName\cf1 \
+\cf3 else\cf1 \
+	zip -r \cf5 $fileName\cf1 \
+\cf3 fi\cf1 \
+Echo \cf4 "Your file is now compressed."}

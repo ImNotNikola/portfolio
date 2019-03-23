@@ -1,0 +1,11 @@
+E:\Lakeland\Programming Logic\BASIC\VB\VB Sample A\VB Sample A\bin\Debug\VB Sample A.exe
+E:\Lakeland\Programming Logic\BASIC\VB\VB Sample A\VB Sample A\bin\Debug\VB Sample A.pdb
+E:\Lakeland\Programming Logic\BASIC\VB\VB Sample A\VB Sample A\bin\Debug\VB Sample A.xml
+E:\Lakeland\Programming Logic\BASIC\VB\VB Sample A\VB Sample A\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Lakeland\Programming Logic\BASIC\VB\VB Sample A\VB Sample A\obj\x86\Debug\VB_Sample_A.frmColor.resources
+E:\Lakeland\Programming Logic\BASIC\VB\VB Sample A\VB Sample A\obj\x86\Debug\VB_Sample_A.Resources.resources
+E:\Lakeland\Programming Logic\BASIC\VB\VB Sample A\VB Sample A\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Lakeland\Programming Logic\BASIC\VB\VB Sample A\VB Sample A\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\Lakeland\Programming Logic\BASIC\VB\VB Sample A\VB Sample A\obj\x86\Debug\VB Sample A.exe
+E:\Lakeland\Programming Logic\BASIC\VB\VB Sample A\VB Sample A\obj\x86\Debug\VB Sample A.xml
+E:\Lakeland\Programming Logic\BASIC\VB\VB Sample A\VB Sample A\obj\x86\Debug\VB Sample A.pdb

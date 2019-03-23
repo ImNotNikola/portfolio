@@ -1,0 +1,29 @@
+public class BirdSighting 
+{
+	private String species;
+	private int number;
+	private int day;
+
+	public BirdSighting()
+	{
+		this("robin", 1, 1);
+	}
+	public BirdSighting(String species, int number, int day)
+	{
+		this.species = species;
+		this.number = number;
+		this.day = day;
+	}
+		public String getSpecies()
+	{
+		return species;
+	}
+   	public int getNumber()
+	{
+		return number;
+	}
+	public int getDay()
+	{
+		return day;
+	}
+}

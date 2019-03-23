@@ -1,0 +1,11 @@
+E:\Lakeland\Programming Logic\BASIC\VB\VB Sample B\VB Sample B\bin\Debug\VB Sample B.exe
+E:\Lakeland\Programming Logic\BASIC\VB\VB Sample B\VB Sample B\bin\Debug\VB Sample B.pdb
+E:\Lakeland\Programming Logic\BASIC\VB\VB Sample B\VB Sample B\bin\Debug\VB Sample B.xml
+E:\Lakeland\Programming Logic\BASIC\VB\VB Sample B\VB Sample B\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Lakeland\Programming Logic\BASIC\VB\VB Sample B\VB Sample B\obj\x86\Debug\VB_Sample_B.frmCalcSalesTax.resources
+E:\Lakeland\Programming Logic\BASIC\VB\VB Sample B\VB Sample B\obj\x86\Debug\VB_Sample_B.Resources.resources
+E:\Lakeland\Programming Logic\BASIC\VB\VB Sample B\VB Sample B\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Lakeland\Programming Logic\BASIC\VB\VB Sample B\VB Sample B\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\Lakeland\Programming Logic\BASIC\VB\VB Sample B\VB Sample B\obj\x86\Debug\VB Sample B.exe
+E:\Lakeland\Programming Logic\BASIC\VB\VB Sample B\VB Sample B\obj\x86\Debug\VB Sample B.xml
+E:\Lakeland\Programming Logic\BASIC\VB\VB Sample B\VB Sample B\obj\x86\Debug\VB Sample B.pdb
